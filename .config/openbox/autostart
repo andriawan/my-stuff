@@ -1,0 +1,11 @@
+# start the customized wallpaper
+feh --bg-fill /home/andriawan/Desktop/bg/x/we.png
+
+# start plank
+plank
+
+# start xfce4-power manager
+(sleep 2s && xfce4-power-manager) &
+
+## Volume keys daemon
+vol

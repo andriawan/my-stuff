@@ -111,6 +111,8 @@ alias sdk='bash /media/D/Sdk/tools/android'
 alias sync_porto23='rclone sync /home/andriawan/Desktop/My\ Portofolio andriawan23:My_Portofolio'
 alias ls23='rclone lsd andriawan23:'
 alias ls2014='rclone lsd andriawan2014:'
+alias sync_muham='rclone sync /media/E/Muhammad\ Irwan\ Andriawan andriawan23:Local_Disk_E/Muhammad\ Irwan\ Andriawan'
+
 
 #wps
 alias doc='wps'
