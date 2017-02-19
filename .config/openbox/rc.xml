@@ -370,6 +370,18 @@
         <command>pactl set-sink-mute 1 toggle</command>
       </action>
     </keybind>
+	
+ <keybind key="C-1">
+      <action name="Execute">
+        <command>xrandr --output LVDS --brightness 1</command>
+      </action>
+    </keybind>
+
+	<keybind key="C-2">
+      <action name="Execute">
+        <command>xrandr --output LVDS --brightness 0.5</command>
+      </action>
+    </keybind>
 
     <keybind key="F7">
       <action name="Execute">
