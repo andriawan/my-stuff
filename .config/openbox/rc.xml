@@ -123,10 +123,7 @@
     <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
-      <!-- set names up here if you want to, like this:
-    <name>desktop 1</name>
-    <name>desktop 2</name>
-    -->
+      <name>Andriawan</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -352,40 +349,39 @@
         <command>lxtask</command>
       </action>
     </keybind>
-
-     <keybind key="XF86AudioRaiseVolume">
+    <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <command>amixer -c 1 sset Master 5%+ unmute</command>
       </action>
     </keybind>
-
-     <keybind key="XF86AudioLowerVolume">
+    <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
         <command>amixer -c 1 sset Master 5%- unmute</command>
       </action>
     </keybind>
-
-     <keybind key="XF86AudioMute">
+    <keybind key="XF86AudioMute">
       <action name="Execute">
         <command>pactl set-sink-mute 1 toggle</command>
       </action>
     </keybind>
-	
- <keybind key="C-1">
+    <keybind key="C-1">
       <action name="Execute">
         <command>xrandr --output LVDS --brightness 1</command>
       </action>
     </keybind>
-
-	<keybind key="C-2">
+    <keybind key="C-2">
       <action name="Execute">
         <command>xrandr --output LVDS --brightness 0.5</command>
       </action>
     </keybind>
-
     <keybind key="F7">
       <action name="Execute">
         <command>plank</command>
+      </action>
+    </keybind>
+    <keybind key="C-k">
+      <action name="Execute">
+        <command>keepnote</command>
       </action>
     </keybind>
   </keyboard>

@@ -2,6 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+#auto cd
+shopt -s autocd
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -87,6 +90,10 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+#-------------------------------------------------------------------------------------
+#	COSTUM ALIASES
+#-------------------------------------------------------------------------------------
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -97,7 +104,7 @@ alias susp='sudo systemctl suspend'
 
 # custom aliases
 
-alias andro='bash /media/andriawan/3ED3D9A55302BD9F/android-studio/bin/studio.sh'
+alias andro='bash /media/10g/android-studio/bin/studio.sh'
 alias ls='ls -a -l -h --color=yes'
 alias hm='cd ~'
 alias cls='clear'
@@ -112,6 +119,7 @@ alias sync_porto23='rclone sync /home/andriawan/Desktop/My\ Portofolio andriawan
 alias ls23='rclone lsd andriawan23:'
 alias ls2014='rclone lsd andriawan2014:'
 alias sync_muham='rclone sync /media/E/Muhammad\ Irwan\ Andriawan andriawan23:Local_Disk_E/Muhammad\ Irwan\ Andriawan'
+alias sync_ebook='rclone copy /media/E/Books\ Collection/ andriawan23:Local_Disk_E/books'
 
 
 #wps
@@ -143,7 +151,7 @@ alias install='sudo apt-get install'
 alias netres='sudo /etc/init.d/network-manager restart'
 
 #edit bashrc
-alias ebrc='sudo leafpad /home/andriawan/.bashrc'
+alias ebrc='leafpad /home/andriawan/.bashrc'
 alias rebrc='source /home/andriawan/.bashrc'
 
 #diskusage
@@ -165,6 +173,9 @@ alias where='whereis'
 
 #run wireshark safely
 alias shark='sudo -g wireshark wireshark'
+
+#dmesg
+alias msg='dmesg | grep'
 
 
 
