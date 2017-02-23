@@ -1,0 +1,4 @@
+[Default Applications]
+x-scheme-handler/tg=telegramdesktop.desktop
+inode/directory=pcmanfm.desktop
+text/html=opera.desktop
