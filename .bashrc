@@ -121,6 +121,13 @@ alias ls2014='rclone lsd andriawan2014:'
 alias sync_muham='rclone sync /media/E/Muhammad\ Irwan\ Andriawan andriawan23:Local_Disk_E/Muhammad\ Irwan\ Andriawan'
 alias sync_ebook='rclone copy /media/E/Books\ Collection/ andriawan23:Local_Disk_E/books'
 
+#baobab
+alias diskspace='sudo baobab'
+
+#start xampp/lampp
+alias xampp_start='sudo /opt/lampp/xampp start'
+alias xampp_stop='sudo /opt/lampp/xampp stop'
+alias xampp_security='sudo /opt/lampp/xampp security'
 
 #wps
 alias doc='wps'
@@ -157,6 +164,9 @@ alias rebrc='source /home/andriawan/.bashrc'
 #diskusage
 alias usage='du -hsx * | sort -rh | head '
 alias ducks='du -cks * | sort -rn | head'
+
+#find files
+alias bigfiles='sudo find . -printf "%s %p\n"| sort -nr | head -10'
 
 #wine
 alias kamus='wine /home/andriawan/.wine/drive_c/Program\ Files/Kamus2/Kamus2.exe'

@@ -374,15 +374,50 @@
         <command>xrandr --output LVDS --brightness 0.5</command>
       </action>
     </keybind>
-    <keybind key="F7">
-      <action name="Execute">
-        <command>plank</command>
+    <keybind key="W-Left">        # HalfLeftScreen
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>50%</width>
+      </action>
+    </keybind>
+<keybind key="W-Right">        # HalfRightScreen
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>50%</width>
+      </action>
+    </keybind>
+<keybind key="W-Up">        # HalfUpperScreen
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Down">        # HalfLowerScreen
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>100%</width>
+        <height>50%</height>
       </action>
     </keybind>
     <keybind key="C-k">
       <action name="Execute">
         <command>keepnote</command>
       </action>
+    </keybind>
+<!-- Keybindings to toggle fullscreen -->
+    <keybind key="F11">
+      <action name="ToggleFullscreen"/>
     </keybind>
   </keyboard>
   <mouse><dragThreshold>1</dragThreshold><!-- number of pixels the mouse must move before a drag begins -->
