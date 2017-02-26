@@ -90,9 +90,9 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-#-------------------------------------------------------------------------------------
+#-----------------------------------------------------------------
 #	COSTUM ALIASES
-#-------------------------------------------------------------------------------------
+#-----------------------------------------------------------------
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -101,6 +101,14 @@ alias l='ls -CF'
 alias lgrep='ls | grep'
 alias susp='sudo systemctl suspend'
 
+# launching apps via mimeopen
+alias launch='mimeopen'
+
+# launching genymotion
+alias geny_start='/home/andriawan/Downloads/genymotion/player --vm-name appTest'
+
+# rsync
+alias my_rsync='rsync -r -t -v --progress -s'
 
 # custom aliases
 
@@ -158,7 +166,7 @@ alias install='sudo apt-get install'
 alias netres='sudo /etc/init.d/network-manager restart'
 
 #edit bashrc
-alias ebrc='leafpad /home/andriawan/.bashrc'
+alias ebrc='vim /home/andriawan/.bashrc'
 alias rebrc='source /home/andriawan/.bashrc'
 
 #diskusage
@@ -345,5 +353,7 @@ On_IPurple='\e[0;105m'  # Purple
 On_ICyan='\e[0;106m'    # Cyan
 On_IWhite='\e[0;107m'   # White
 
+datex=$(date '+%A, %d %B %Y')
+
 # My Bash Prompt Style
-PS1="$white_bg$bold$red \u $reset$red_bg$white$bold \h \[\e[0;1m\]$white_bg$bold$red \d \t $reset\n-> \[\e[0;36m\]\w\[\e[0m\] $IWhite(Active Directory)$reset\n-> "
+PS1="$white_bg$bold$red \u $reset$red_bg$white$bold \h \[\e[0;1m\]$white_bg$bold$red $datex \t $reset\n-> \[\e[0;36m\]\w\[\e[0m\] $IWhite(Active Directory)$reset\n-> "

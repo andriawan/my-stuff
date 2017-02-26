@@ -2,3 +2,7 @@
 x-scheme-handler/tg=telegramdesktop.desktop
 inode/directory=pcmanfm.desktop
 text/html=opera.desktop
+application/metalink+xml=opera.desktop
+application/metalink4+xml=opera.desktop
+application/xhtml+xml=opera.desktop
+application/xml=opera.desktop
