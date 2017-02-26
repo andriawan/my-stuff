@@ -1,0 +1,10 @@
+2,4G	Dropbox
+2,3G	Softwares
+1,8G	Web Offline Ubuntu
+1,2G	Icons
+679M	Downloads
+634M	Desktop
+501M	websites
+491M	AndroidStudioProjects
+440M	VirtualBox VMs
+389M	Sharing Folder
