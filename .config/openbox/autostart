@@ -1,5 +1,5 @@
 # start the customized wallpaper
-feh --bg-fill /home/andriawan/Desktop/bg/x/we.png
+feh --bg-fill /usr/share/backgrounds/ubuntustudio/ubuntustudio-gutsy.png
 
 # start xfce4-power manager
 xfce4-power-manager
