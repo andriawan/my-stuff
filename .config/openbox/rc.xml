@@ -366,12 +366,12 @@
     </keybind>
     <keybind key="C-1">
       <action name="Execute">
-        <command>xrandr --output LVDS --brightness 1</command>
+        <command>echo 100 | sudo tee /sys/class/backlight/radeon_bl0/brightness</command>
       </action>
     </keybind>
     <keybind key="C-2">
       <action name="Execute">
-        <command>xrandr --output LVDS --brightness 0.5</command>
+        <command>echo 200 | sudo tee /sys/class/backlight/radeon_bl0/brightness</command>
       </action>
     </keybind>
     <keybind key="W-Left">        # HalfLeftScreen
@@ -383,6 +383,15 @@
         <width>50%</width>
       </action>
     </keybind>
+     <keybind key="F10">        # HalfLeftScreen
+      <action name="maximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>100%</width>
+      </action>
+    </keybind>   
 <keybind key="W-Right">        # HalfRightScreen
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -409,6 +418,7 @@
         <width>100%</width>
         <height>50%</height>
       </action>
+    
     </keybind>
     <keybind key="C-k">
       <action name="Execute">
