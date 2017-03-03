@@ -96,6 +96,7 @@ fi
 
 # some more ls aliases
 alias ll='ls -alF'
+alias ls='ls -alhi --color=yes'
 alias la='ls -A'
 alias l='ls -CF'
 alias lgrep='ls | grep'
@@ -113,7 +114,6 @@ alias my_rsync='rsync -r -t -v --progress -s'
 # custom aliases
 
 alias andro='bash /media/10g/android-studio/bin/studio.sh'
-alias ls='ls -a -l -h --color=yes'
 alias hm='cd ~'
 alias cls='clear'
 alias syn='rsync -av -P'
