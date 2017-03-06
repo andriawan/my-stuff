@@ -364,16 +364,6 @@
         <command>pactl set-sink-mute 1 toggle</command>
       </action>
     </keybind>
-    <keybind key="C-1">
-      <action name="Execute">
-        <command>echo 100 | sudo tee /sys/class/backlight/radeon_bl0/brightness</command>
-      </action>
-    </keybind>
-    <keybind key="C-2">
-      <action name="Execute">
-        <command>echo 200 | sudo tee /sys/class/backlight/radeon_bl0/brightness</command>
-      </action>
-    </keybind>
     <keybind key="W-Left">        # HalfLeftScreen
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -383,7 +373,7 @@
         <width>50%</width>
       </action>
     </keybind>
-     <keybind key="F10">        # HalfLeftScreen
+     <keybind key="W-Up">        # HalfLeftScreen
       <action name="maximizeFull"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -401,15 +391,6 @@
         <width>50%</width>
       </action>
     </keybind>
-<keybind key="W-Up">        # HalfUpperScreen
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
-        <width>100%</width>
-        <height>50%</height>
-      </action>
-    </keybind>
     <keybind key="W-Down">        # HalfLowerScreen
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -418,11 +399,15 @@
         <width>100%</width>
         <height>50%</height>
       </action>
-    
     </keybind>
     <keybind key="C-k">
       <action name="Execute">
         <command>keepnote</command>
+      </action>
+    </keybind>
+    <keybind key="W-k">
+      <action name="Execute">
+        <command>java -jar /home/andriawan/Softwares/KamusPlus/KamusPlus.jar</command>
       </action>
     </keybind>
 <!-- Keybindings to toggle fullscreen -->

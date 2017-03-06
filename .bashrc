@@ -105,6 +105,9 @@ alias susp='sudo systemctl suspend'
 # launching apps via mimeopen
 alias launch='mimeopen'
 
+# setting brightness
+alias bright_100='echo 100 | sudo tee /sys/class/backlight/radeon_bl0/brightness'
+alias bright_200='echo 200 | sudo tee /sys/class/backlight/radeon_bl0/brightness'
 # launching genymotion
 alias geny_start='/home/andriawan/Downloads/genymotion/player --vm-name appTest'
 
