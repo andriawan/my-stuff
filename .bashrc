@@ -114,6 +114,9 @@ alias geny_start='/home/andriawan/Downloads/genymotion/player --vm-name appTest'
 # rsync
 alias my_rsync='rsync -r -t -v --progress -s'
 
+# steam
+alias steam_run='/home/andriawan/Desktop/steam.sh'
+
 # custom aliases
 
 alias andro='bash /media/10g/android-studio/bin/studio.sh'

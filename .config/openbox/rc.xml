@@ -405,6 +405,16 @@
         <command>keepnote</command>
       </action>
     </keybind>
+    <keybind key="W-c">
+      <action name="Execute">
+        <command>xclock -d</command>
+      </action>
+    </keybind>
+    <keybind key="A-c">
+      <action name="Execute">
+        <command>gnome-calculator</command>
+      </action>
+    </keybind>
     <keybind key="W-k">
       <action name="Execute">
         <command>java -jar /home/andriawan/Softwares/KamusPlus/KamusPlus.jar</command>
