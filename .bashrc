@@ -229,6 +229,9 @@ fi
 
 export PATH="$PATH:$HOME/.config/composer/vendor/bin/"
 
+# add radare2 path to env
+export PATH="$PATH:$HOME/bin"
+
 export NVM_DIR="/home/andriawan/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
