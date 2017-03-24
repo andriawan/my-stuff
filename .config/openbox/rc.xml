@@ -405,6 +405,11 @@
         <command>keepnote</command>
       </action>
     </keybind>
+    <keybind key="W-o">
+      <action name="Execute">
+        <command>opera</command>
+      </action>
+    </keybind>
     <keybind key="W-c">
       <action name="Execute">
         <command>xclock -d</command>
