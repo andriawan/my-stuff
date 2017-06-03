@@ -134,6 +134,7 @@ alias ls23='rclone lsd andriawan23:'
 alias ls2014='rclone lsd andriawan2014:'
 alias sync_muham='rclone sync /media/E/Muhammad\ Irwan\ Andriawan andriawan23:Local_Disk_E/Muhammad\ Irwan\ Andriawan'
 alias sync_ebook='rclone copy /media/E/Books\ Collection/ andriawan23:Local_Disk_E/books'
+alias sync_porto_data='rclone sync /home/andriawan/Desktop/My\ Portofolio data1:My_Portofolio'
 
 #baobab
 alias diskspace='sudo baobab'
@@ -142,7 +143,12 @@ alias diskspace='sudo baobab'
 alias xampp_start='sudo /opt/lampp/xampp start'
 alias xampp_stop='sudo /opt/lampp/xampp stop'
 alias xampp_security='sudo /opt/lampp/xampp security'
-
+alias web_development='sudo systemctl start mysql.service apache2.service'
+alias web_development_stop='sudo systemctl stop mysql.service apache2.service'
+alias public_mode='sudo systemctl stop mysql.service apache2.service ssh.service smbd.service vsftpd.service'
+alias personal_mode='sudo systemctl start ssh.service smbd.service vsftpd.service'
+#arduino
+alias arduino='/media/10g/arduino-1.8.2/arduino'
 #wps
 alias doc='wps'
 alias ppt='wpp'
@@ -170,6 +176,12 @@ alias install='sudo apt-get install'
 
 #init.d
 alias netres='sudo /etc/init.d/network-manager restart'
+
+#clear pagecache, dentries anda inode RAM optimizer
+#for production, just clear pagecache
+alias clear_ram_production='sudo sh -c "sync && echo 1 > /proc/sys/vm/drop_caches"'
+#for personal usage (take 2 or 3)
+alias clear_ram='sudo sh -c "sync && echo 3 > /proc/sys/vm/drop_caches"'
 
 #edit bashrc
 alias ebrc='vim /home/andriawan/.bashrc'
