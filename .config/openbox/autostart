@@ -1,9 +1,14 @@
 # start the customized wallpaper
 feh --bg-fill /usr/share/backgrounds/ubuntustudio/ubuntustudio-gutsy.png
 
+# start composite manager
+xcompmgr -f &
+
 # start xfce4-power manager
 xfce4-power-manager
 
 # start plank
 plank
+
+
 
