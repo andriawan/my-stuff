@@ -114,6 +114,9 @@ alias geny_start='/home/andriawan/Downloads/genymotion/player --vm-name appTest'
 # rsync
 alias my_rsync='rsync -r -t -v --progress -s'
 
+# resolvf dns google
+alias res8='sudo sh -c "echo nameserver 8.8.8.8>>/etc/resolv.conf"'
+
 # steam
 alias steam_run='/home/andriawan/Desktop/steam.sh'
 
@@ -188,7 +191,7 @@ alias ebrc='vim /home/andriawan/.bashrc'
 alias rebrc='source /home/andriawan/.bashrc'
 
 #diskusage
-alias usage='du -hsx * | sort -rh | head '
+alias usage='du -chsx * | sort -rh | head'
 alias ducks='du -cks * | sort -rn | head'
 
 #find files
@@ -378,3 +381,4 @@ datex=$(date '+%A, %d %B %Y')
 
 # My Bash Prompt Style
 PS1="$white_bg$bold$red \u $reset$red_bg$white$bold \h \[\e[0;1m\]$white_bg$bold$red $datex \t $reset\n-> \[\e[0;36m\]\w\[\e[0m\] $IWhite(Active Directory)$reset\n-> "
+
