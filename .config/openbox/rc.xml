@@ -420,7 +420,7 @@
 <!-- shortcut untuk Telegram -->
     <keybind key="W-t">
       <action name="Execute">
-        <command>telegram</command>
+        <command>Telegram</command>
       </action>
     </keybind>
 
@@ -455,7 +455,7 @@
 <!-- shortcut untuk kamus java -->
     <keybind key="W-k">
       <action name="Execute">
-        <command>java -jar /home/andriawan/Softwares/KamusPlus/KamusPlus.jar</command>
+        <command>java -jar /media/D/Softwares/Ubuntu\ Softwares/KamusPlus/KamusPlus.jar</command>
       </action>
     </keybind>
 
