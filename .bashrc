@@ -158,9 +158,9 @@ alias ppt='wpp'
 alias xls='et'
 
 #libre office
-alias writer='/opt/libreoffice5.1/program/swriter'
-alias calc='/opt/libreoffice5.1/program/scalc'
-alias impress='/opt/libreoffice5.1/program/simpress'
+alias writer='/opt/libreoffice5.3/program/swriter'
+alias calc='/opt/libreoffice5.3/program/scalc'
+alias impress='/opt/libreoffice5.3/program/simpress'
 
 #multimedia
 alias mus='audacious'

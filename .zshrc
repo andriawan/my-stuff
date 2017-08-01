@@ -86,6 +86,8 @@ alias ls2014='rclone lsd andriawan2014:'
 alias sync_muham='rclone sync /media/E/Muhammad\ Irwan\ Andriawan andriawan23:Local_Disk_E/Muhammad\ Irwan\ Andriawan'
 alias sync_ebook='rclone copy /media/E/Books\ Collection/ andriawan23:Local_Disk_E/books'
 alias sync_porto_data='rclone sync /home/andriawan/Desktop/My\ Portofolio data1:My_Portofolio'
+alias sync_ebook_data='rclone copy /media/E/Books\ Collection/ data1:books'
+
 
 #baobab
 alias diskspace='sudo baobab'
@@ -106,9 +108,9 @@ alias ppt='wpp'
 alias xls='et'
 
 #libre office
-alias writer='/opt/libreoffice5.1/program/swriter'
-alias calc='/opt/libreoffice5.1/program/scalc'
-alias impress='/opt/libreoffice5.1/program/simpress'
+alias writer='/opt/libreoffice5.3/program/swriter'
+alias calc='/opt/libreoffice5.3/program/scalc'
+alias impress='/opt/libreoffice5.3/program/simpress'
 
 #multimedia
 alias mus='audacious'
